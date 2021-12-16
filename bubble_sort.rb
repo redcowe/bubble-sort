@@ -1,5 +1,3 @@
-require "pry-byebug"
-
 class Array
     def swap! (a,b) ## Method for swapping values
        
@@ -17,7 +15,7 @@ end
 def bubble_sort(array)
 
     array.reduce {|previous, current|
-        # binding.pry
+
         if array == array.sort
             return array
         else
